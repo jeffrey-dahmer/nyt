@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-app {
+  display: inline-block;
+  width: 100vw;
+}
+
+.header-cta-app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 6px;
+  width: 100vw;
+  height: 53px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.login-app {
+  display: flex;
+  height: 30px;
+  align-items: flex-end;
+}
+
+.logo-app__svg {
+  height: 30px;
+}
+
+.login-app {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+}
+
+.login-app__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+}
+
+.menu-app {
+  display: flex;
+  align-items: center;
+  width: 34;
+  height: 32;
+  padding: 8px 9px;
+}
+
+.menu-ap__icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-app {
+    display: none;
+  }
+}
