@@ -61,3 +61,17 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 740px) {
+  .header-cta-app {
+    padding: 8px 15px 3px;
+    height: 47px;
+  }
+  .login-app {
+    height: 26px;
+  }
+
+  .logo-app__svg {
+    height: 26px;
+  }
+}
