@@ -56,8 +56,39 @@
   height: 16px;
 }
 
+.header-info-app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 57px;
+  margin: 0 13px;
+  padding: 10px 20px;
+}
+
+.header-info-app__date {
+  font-size: 0.6875rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #121212;
+}
+
+.header-info-app__subscribe {
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: 1px solid #121212;
+  text-wrap: nowrap;
+}
+
 @media screen and (min-width: 1024px) {
   .header-app {
+    display: none;
+  }
+
+  .header-info-app {
     display: none;
   }
 }
@@ -73,5 +104,15 @@
 
   .logo-app__svg {
     height: 26px;
+  }
+
+  .header-info-app {
+    background: #f7f7f7;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-info-app {
+    border-bottom: 1px solid #121212;
   }
 }
