@@ -94,7 +94,7 @@ main {
   margin-right: 7px;
 }
 
-.login__blue-botom:last-child {
+.login__blue-botom--margin {
   margin-left: 7px;
 }
 
@@ -230,7 +230,7 @@ main {
   margin-right: 30px;
 }
 
-.newsletter__tittle {
+.newsletter__title {
   font-weight: 700;
   font-size: 15px;
 }
