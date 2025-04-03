@@ -270,6 +270,7 @@ main {
 
 .top-news__figcaption {
   display: flex;
+  margin-bottom: 8px;
   justify-content: flex-end;
 }
 
