@@ -182,6 +182,17 @@
   margin-top: 25px;
 }
 
+.top-news-app__article--no-after::after {
+  content: "";
+  display: block;
+  position: relative;
+  margin: 0 -39px;
+  background-color: #f8f8f8;
+  height: 0;
+  border-top: 1px solid #dfdfdf;
+  margin-top: 25px;
+}
+
 .article-app__img {
   position: relative;
   margin: 0 -39px;
