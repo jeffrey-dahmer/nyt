@@ -18,6 +18,7 @@ function showHeader() {
     navbarHeaderContainer.style.transform = "translateY(-70px)";
   }
 }
+
 window.addEventListener("scroll", showHeader);
 
 const body = document.getElementsByTagName("body");
