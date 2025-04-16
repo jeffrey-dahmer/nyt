@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "nyt-cheltenham";
+  src: url("../public/fonts/cheltenham-normal-700.woff2");
+}
+
 :root {
   --width: 1280px;
 }
@@ -13,6 +18,21 @@ ul {
   list-style: none;
 }
 
+li {
+  cursor: pointer;
+}
+
+li:hover h3 {
+  text-decoration: underline;
+}
+
+.global-overview__item:hover article {
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: "nyt-cheltenham";
+}
 a {
   text-decoration: none;
   color: black;

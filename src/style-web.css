@@ -4,6 +4,11 @@ main {
   padding: 0px 39px;
 }
 
+@font-face {
+  font-family: "nyt-cheltenham";
+  src: url("../public/fonts/cheltenham-normal-700.woff2");
+}
+
 .header-web {
   max-width: var(--width);
   margin: 4px auto 0px;
@@ -20,7 +25,6 @@ main {
   position: fixed;
   top: 0;
   background: white;
-  transform: translateY(-70px);
   transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -323,8 +327,8 @@ main {
 }
 
 .article__title {
+  font-family: "nyt-cheltenham";
   margin-bottom: 7px;
-  font-family: times, serif;
   font-size: 1.4375rem;
   font-weight: 700;
   line-height: 1.6875rem;
