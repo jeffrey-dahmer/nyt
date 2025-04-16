@@ -10,6 +10,20 @@ main {
   padding: 0px 39px;
 }
 
+.navbarContainer {
+  display: flex;
+  visibility: hidden;
+  width: 100%;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 5px 1px;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  background: white;
+  transform: translateY(-70px);
+  transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
 .header-cta {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -176,6 +190,9 @@ main {
 
 @media screen and (max-width: 1023px) {
   .header-web {
+    display: none;
+  }
+  .navbarContainer {
     display: none;
   }
 }
